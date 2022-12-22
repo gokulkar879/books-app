@@ -1,0 +1,45 @@
+.signin-center{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-top: 8rem;
+}
+
+.btn {
+letter-spacing: 2px;
+border: none;
+outline: none;
+text-decoration: underline;
+font-size: 1.4rem;
+color: rgb(49, 49, 49);
+transition: .2s;
+cursor: pointer;
+background-color: transparent;
+}
+
+.btn:hover {
+  color: rgb(0, 128, 255);
+}
+
+.signin-nav {
+    padding-top: 3rem;
+    padding-right: 3rem;
+  }
+  
+.signin-nav > a {
+    font-size: 1.4rem;
+    margin: 0 2rem;
+    background-color: rgb(10, 75, 132);
+    padding: 10px;
+    letter-spacing: 1.5px;
+    border-radius: 8px;
+    color: rgb(237, 234, 234);
+    text-decoration: none;
+    transition: .3s;
+}
+
+.signin-nav > a:hover {
+color: rgb(4, 4, 41);
+background-color: rgb(141, 196, 236);
+}
